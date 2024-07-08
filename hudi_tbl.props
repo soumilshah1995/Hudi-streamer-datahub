@@ -1,0 +1,9 @@
+hoodie.datasource.write.keygenerator.class=org.apache.hudi.keygen.SimpleKeyGenerator
+hoodie.datasource.write.recordkey.field=invoiceid
+hoodie.datasource.write.partitionpath.field=destinationstate
+hoodie.streamer.source.dfs.root=file:///Users/soumilshah/IdeaProjects/SparkProject/apache-hudi-delta-streamer-labs/E1/sampledata/
+hoodie.datasource.write.precombine.field=replicadmstimestamp
+
+hoodie.meta.sync.datahub.emitter.server=http://localhost:8080
+hoodie.datasource.hive_sync.database=default
+hoodie.datasource.hive_sync.table=invoices
